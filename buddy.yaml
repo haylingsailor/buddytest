@@ -8,7 +8,7 @@
     type: "BUILD"
     working_directory: "/src/github.com/haylingsailor/buddytest"
     docker_image_name: "library/golang"
-    docker_image_tag: "1.12"
+    docker_image_tag: "1.7"
     execute_commands:
     - "export GOPATH=/"
     - "export GO15VENDOREXPERIMENT=1"
