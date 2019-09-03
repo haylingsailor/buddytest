@@ -8,7 +8,7 @@ type Speaker struct {
 
 // SayHello says hello
 func (s *Speaker) SayHello() string {
-	return "hello-broken"
+	return "hello"
 }
 
 func main() {
